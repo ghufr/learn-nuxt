@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="max-w-5xl mx-auto">
     isOpen: {{ open }}
     <br />
     <button @click="open = true">Open Modal</button>
@@ -13,5 +13,8 @@
 </template>
 
 <script setup>
+definePageMeta({
+  layout: 'main',
+});
 const open = useState('open', () => false);
 </script>

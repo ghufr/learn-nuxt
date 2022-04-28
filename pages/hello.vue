@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="max-w-5xl mx-auto">
     <h1>Hello Page</h1>
     <NuxtLink to="/">Home Page</NuxtLink>
   </div>
